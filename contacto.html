@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Inicial - Index</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <header>
+                <div class="menuSuperior">
+                    <a href="index.html">Inicio</a> 
+                    <a href="calculadora.html">Calculadora</a> 
+                    <a href="contacto.html">Contacto</a> 
+                </div>
+            </header>
+        </div>
+        
+        
+        <div class="container">
+            <div class="appForm">
+                <p>Si desea ponerse en contacto, utilice el siguiente formulario.</p><br>
+                <div class="formContact">
+                    
+                    <form id="form" action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+                        <div class="formNombre">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" required>
+                        </div>
+                        <div class="formApellidos">
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" name="apellidos" id="apellidos" required>
+                        </div>
+                        <div class="formEmail">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" required>
+
+                        </div>
+                        <div class="formTexto">
+                            <label for="texto">Introduzca su pregunta o comentario: </label>
+                            <div class="formTextoCuadro">
+                                <textarea name="texto" id="texto" cols="50" rows="10" maxlength="500" form="form" ></textarea>
+                            </div>
+                        </div>
+                        <input id="enviar" type="submit" value="Enviar">
+                    </form>
+
+                </div>
+           
+            </div>
+    
+        </div>
+    </div>
+    
+        <script src="calculadora.js"></script>
+</body>
+</html>
