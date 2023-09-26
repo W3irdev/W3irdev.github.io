@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper container justify-content-center align-items-center vh-100 d-flex">
+
+        <form action="registrado.html" method="get">
+
+        <div class="box bg-green p-5 rounded-5">
+            <div class="text-center">
+                <a href="login.html"><img src="assets/login-icon.png" alt="login-icon" style="height: 7em;"></img></a>
+            </div>
+            <div class="text-white mb-3">Registro</div>
+            <div class="d-flex">
+                <div class="me-2"><input class="border-yellow" type="text" name="nombre" id="user" placeholder="Nombre" required></div>
+                <div><input class="border-yellow" type="text" name="apellidos" id="user" placeholder="Apellidos" required></div>
+            </div>
+            <div class="d-flex mt-4">
+                <div class="mb-4 w-100"><input class="border-yellow w-100" type="email" name="user" id="user" placeholder="E-mail" required></div>
+            </div>
+            <div class="d-flex">
+                <div class="mb-4 w-100 me-2"><input class="border-yellow" type="password" name="password" id="user" placeholder="Password" required></div>
+                <div class="mb-4 w-100"><input class="border-yellow" type="password" name="password" id="user" placeholder="Repeat Password" required></div>
+            </div>
+            <div><input class="btn btn-magenta border-yellow w-100" type="submit" value="Continuar"></div>
+            <div>
+
+            </div>
+        </div>
+    </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

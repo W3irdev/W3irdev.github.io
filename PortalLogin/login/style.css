@@ -1,0 +1,30 @@
+body{
+    background-image: url("images/fondo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    box-shadow: 10px 10px 30px 10px black;
+}
+
+.bg-green{
+    background-color: #79AC78;
+}
+
+.rounded-5{
+    border-radius: 30px;
+}
+
+a{
+    color: aqua;
+}
+
+.btn-magenta{
+    background-color: #FFD9B7;
+    color: black;
+}
+
+.border-yellow{
+    border-color: #EFF58C;
+}
